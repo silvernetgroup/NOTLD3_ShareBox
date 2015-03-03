@@ -1,0 +1,2 @@
+C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Data\AppStudio.Data.csproj;neutral
+C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.WindowsPhone\AppStudio.WindowsPhone.csproj;neutral

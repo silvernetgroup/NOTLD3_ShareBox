@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KOKOS</Machine>
+    <WindowsUser>Mateusz</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>472e52b6-2e51-43ef-933c-9d12e38eb9e2</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\AppStudio.exe">
+      <PackagePath>AppStudio.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\Lib\AppStudio.Common.dll">
+      <PackagePath>AppStudio.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Data\bin\Debug\AppStudio.Data.dll">
+      <PackagePath>AppStudio.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\packages\Newtonsoft.Json.6.0.5\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\packages\PCLStorage.0.9.6\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\packages\PCLStorage.0.9.6\lib\portable-win8+wpa81\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\AppBar\GoToSource.png">
+      <PackagePath>Assets\AppBar\GoToSource.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\AppBar\PinToStart.png">
+      <PackagePath>Assets\AppBar\PinToStart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\AppBar\Refresh.png">
+      <PackagePath>Assets\AppBar\Refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\AppBar\TextToSpeech.png">
+      <PackagePath>Assets\AppBar\TextToSpeech.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\ApplicationLogo.png">
+      <PackagePath>Assets\ApplicationLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\ApplicationBackgroundImage.png">
+      <PackagePath>Assets\ApplicationBackgroundImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\ErrorImage.png">
+      <PackagePath>Assets\ErrorImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Views\DataTemplates\HeIsMyHeroViews.xaml">
+      <PackagePath>Views\DataTemplates\HeIsMyHeroViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Views\DataTemplates\BlogViews.xaml">
+      <PackagePath>Views\DataTemplates\BlogViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Views\DataTemplates\VideosViews.xaml">
+      <PackagePath>Views\DataTemplates\VideosViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Views\DataTemplates\FacebookViews.xaml">
+      <PackagePath>Views\DataTemplates\FacebookViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Views\DataTemplates\BingViews.xaml">
+      <PackagePath>Views\DataTemplates\BingViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\Views\DataTemplates\AlbumsViews.xaml">
+      <PackagePath>Views\DataTemplates\AlbumsViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\DataImages\FlipSquareTile.jpg">
+      <PackagePath>Assets\DataImages\FlipSquareTile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\DataImages\FlipWideTile.jpg">
+      <PackagePath>Assets\DataImages\FlipWideTile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\DataImages\Item-fb18c85e-4b37-489b-bbf8-5af7ed736be4.jpg">
+      <PackagePath>Assets\DataImages\Item-fb18c85e-4b37-489b-bbf8-5af7ed736be4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\DataImages\Item-12b9cf98-e3f4-4166-be2a-f52a860b945b.jpg">
+      <PackagePath>Assets\DataImages\Item-12b9cf98-e3f4-4166-be2a-f52a860b945b.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\DataImages\Item-aaf9d7a9-6c85-41a3-b1b1-c8d1c8bf0252.jpg">
+      <PackagePath>Assets\DataImages\Item-aaf9d7a9-6c85-41a3-b1b1-c8d1c8bf0252.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\DataImages\Item-619c68a6-760a-482e-80ca-652e213856be.jpg">
+      <PackagePath>Assets\DataImages\Item-619c68a6-760a-482e-80ca-652e213856be.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\Data\HeIsMyHeroDataSource.htm">
+      <PackagePath>Assets\Data\HeIsMyHeroDataSource.htm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\Data\HeIsMyHeroDataSource.json">
+      <PackagePath>Assets\Data\HeIsMyHeroDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\Data\BlogDataSource.json">
+      <PackagePath>Assets\Data\BlogDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\Data\VideosDataSource.json">
+      <PackagePath>Assets\Data\VideosDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\Data\FacebookDataSource.json">
+      <PackagePath>Assets\Data\FacebookDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\Data\BingDataSource.json">
+      <PackagePath>Assets\Data\BingDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Shared\Assets\Data\AlbumsDataSource.json">
+      <PackagePath>Assets\Data\AlbumsDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Controls\YouTubeViewer.xbf">
+      <PackagePath>Controls\YouTubeViewer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\AppFlyouts\AboutFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\AboutFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\AppFlyouts\PrivacyFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\PrivacyFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\ImageViewer.xbf">
+      <PackagePath>Views\ImageViewer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\BlogList.xbf">
+      <PackagePath>Views\BlogList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\BlogDetailPage.xbf">
+      <PackagePath>Views\BlogDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\VideosList.xbf">
+      <PackagePath>Views\VideosList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\VideosDetailPage.xbf">
+      <PackagePath>Views\VideosDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\FacebookList.xbf">
+      <PackagePath>Views\FacebookList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\FacebookDetailPage.xbf">
+      <PackagePath>Views\FacebookDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\BingList.xbf">
+      <PackagePath>Views\BingList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\AlbumsList.xbf">
+      <PackagePath>Views\AlbumsList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Views\AlbumsDetailPage.xbf">
+      <PackagePath>Views\AlbumsDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Styles\ControlStyles.xbf">
+      <PackagePath>Styles\ControlStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Styles\ButtonStyles.xbf">
+      <PackagePath>Styles\ButtonStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\Styles\AppStyles.xbf">
+      <PackagePath>Styles\AppStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\AppStudio.xr.xml">
+      <PackagePath>AppStudio.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mateusz\Desktop\ShareBoxApp\AppStudio.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

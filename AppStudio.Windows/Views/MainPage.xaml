@@ -1,0 +1,78 @@
+<Page
+    x:Class="AppStudio.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:AppStudio.ViewModels"
+    mc:Ignorable="d">
+ 
+  <Grid Background="{StaticResource AppBackground}">
+    <Grid.ChildrenTransitions>
+      <TransitionCollection>
+        <EntranceThemeTransition/>
+      </TransitionCollection>
+    </Grid.ChildrenTransitions>
+
+    <Hub x:Name="Container"  DataContext="{Binding}" Header="{Binding NavigationHelper}" HeaderTemplate="{StaticResource PageHeader}" SectionHeaderClick="OnSectionHeaderClick" Style="{StaticResource AppHubStyle}" SectionsInViewChanged="OnSectionsInViewChanged">
+      <HubSection x:Name="HeIsMyHeroSection" Header="He is my hero" DataContext="{Binding MainViewModel.HeIsMyHeroModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/HeIsMyHeroDataSource.json, Type=vm:HeIsMyHeroViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource HeIsMyHeroList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="BlogSection" Header="blog" DataContext="{Binding MainViewModel.BlogModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/BlogDataSource.json, Type=vm:BlogViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource BlogList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="VideosSection" Header="videos" DataContext="{Binding MainViewModel.VideosModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/VideosDataSource.json, Type=vm:VideosViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource VideosList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="FacebookSection" Header="Facebook" DataContext="{Binding MainViewModel.FacebookModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/FacebookDataSource.json, Type=vm:FacebookViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource FacebookList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="BingSection" Header="Bing" DataContext="{Binding MainViewModel.BingModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/BingDataSource.json, Type=vm:BingViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource BingList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="AlbumsSection" Header="albums" DataContext="{Binding MainViewModel.AlbumsModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/AlbumsDataSource.json, Type=vm:AlbumsViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource AlbumsList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+    </Hub>
+
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup>
+        <VisualState x:Name="SnappedView">
+          <Storyboard>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="HeIsMyHeroSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource HeIsMyHeroListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BlogSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource BlogListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="VideosSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource VideosListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="FacebookSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource FacebookListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BingSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource BingListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="AlbumsSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AlbumsListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+          </Storyboard>
+        </VisualState>
+        <VisualState x:Name="FullscreenView">
+        </VisualState>
+      </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+  </Grid>
+
+  <Page.BottomAppBar>
+    <CommandBar Background="{StaticResource AppBarBackground}">
+      <AppBarButton x:Uid="RefreshButton" DataContext="{Binding MainViewModel}" Command="{Binding RefreshCommand}">
+        <AppBarButton.Icon>
+          <BitmapIcon UriSource="ms-appx:///Assets/AppBar/Refresh.png"/>
+        </AppBarButton.Icon>
+      </AppBarButton>
+    </CommandBar>
+  </Page.BottomAppBar>
+</Page>
